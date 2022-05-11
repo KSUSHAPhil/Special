@@ -6,8 +6,7 @@ public class Main {
 
         if (replenishment >= 1000) {
             balance = balance + bonus + replenishment;
-        }
-        else {
+        } else {
             balance = balance + replenishment;
         }
         System.out.println(balance);
